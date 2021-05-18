@@ -1,0 +1,85 @@
+
+# ----------------------------------------------------------------------
+# C++ Project Specific
+# ----------------------------------------------------------------------
+
+# assignment executable output files
+
+hw[0-9]*
+hw[0-9][0-9]*
+
+!hw[0-9]*.*
+!hw[0-9][0-9]*.*
+
+# example directory
+examples
+
+#blanket ignored files (all files with the following extensions)
+*.zip
+*.txt
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.out
+*.lnk
+*.sw[a-p]
+.DS_Store
+
+# the cmake lists file:
+!CMakeLists.txt
+CMakeFiles
+CMakeScripts
+CMakeCache.txt
+Testing
+Makefile
+*.cmake
+compile_commands.json
+_deps
+
+# if you would like to specifically include a file that would be
+# ignored, you can do so by adding the specific filename and adding an
+# ! in front of it, ex: !dontIgnore.txt
+
+
+# any other relevent files; if you use one, add your IDE gitignore text
+# here
+
+
+# ----------------------------------------------------------------------
+# From GitHub (defaults)
+# ----------------------------------------------------------------------
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
